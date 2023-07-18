@@ -32,6 +32,10 @@ header figure img {
     height: 35px;
 }
 
+header h1 {
+    font-family: 'Roboto Serif'; 
+}
+
 header nav  {
 display: flex;
 justify-content: space-around;
@@ -39,6 +43,34 @@ width: 12vw;
 padding: 10px;
 }
 
-.primeiraSessaoMain figure {
+main {
+    border: solid green;
+}
+
+.primeiraSessaoMain {
     border: solid red;
 }
+
+
+.sessaoUm img {
+    border: solid black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.boasVindas {
+    border: solid blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #EB4A7B;
+    font-size: 50px;
+    position: relative;
+    top: 70px;
+}
+
+.pataMain {
+    border:solid blue;
+}
+
