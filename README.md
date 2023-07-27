@@ -9,6 +9,7 @@
 # Tecnologias
 * HTML
 * CSS
+* Resposividade
 
 # Assuntos abordados na aprendizagem
 ## HTML
