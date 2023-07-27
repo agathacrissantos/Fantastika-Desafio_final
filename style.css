@@ -15,7 +15,7 @@ header {
     color: #FFFFFF;
 }
 
-header section {
+.logo {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -145,7 +145,7 @@ header nav {
     border: none;
 }
 
-.quartaSessaoMain {
+.quartaSessaoMain div {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -166,7 +166,7 @@ footer {
     align-items: center;
 }
 
-footer section {
+.primeiraSessaoFooter {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -211,5 +211,113 @@ footer nav {
         display: none;
     }
 
+    .primeiraSessaoMain {
+        background-image: url(assets/cachorro1-mobile.png);
+        background-repeat: no-repeat;
+    }
 
+    .primeiraSessaoMain h1 {
+        width: 200px;
+        font-size: 30px;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+
+    .segundaSessaoMain {
+        background-image: url(assets/cachorro3-mobile.png);
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: flex-start;
+        padding-left: 70px;
+        padding-top: 60px;
+    }
+
+    .segundaSessaoMain div {
+        width: 60vw;
+        height: 35vh;
+    }
+
+    .segundaSessaoMain h2 {
+        font-size: 30px;
+    }
+
+    .segundaSessaoMain p {
+        font-size: 20px;
+    }
+
+    .segundaSessaoMain .botaoMain {
+        width: 35vw;
+        height: 10vh;
+        font-size: 16px;
+    }
+
+    .terceiraSessaoMain {
+        background-image: url(assets/cachorro2-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: flex-start;
+        padding-left: 70px;
+        padding-top: 60px;
+    }
+
+    .terceiraSessaoMain div {
+        width: 60vw;
+        height: 35vh;
+    }
+
+    .terceiraSessaoMain h2 {
+        font-size: 30px;
+    }
+
+    .terceiraSessaoMain p {
+        font-size: 20px;
+    }
+
+    .terceiraSessaoMain .segundoBotaoMain {
+        width: 35vw;
+        height: 10vh;
+        font-size: 16px;
+    }
+
+    .quartaSessaoMain {
+        height: 50vh;
+    }
+
+    .quartaSessaoMain div {
+        margin-top: 50px;
+        height: 70vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer {
+        border: solid black;
+        height: 1000px;
+        margin-top: 10px;
+    }
+
+    .primeiraSessaoFooter {
+        border: solid red;
+        background-color: #EB4A7B;
+        background-image: url(assets/patinha.png);
+        background-repeat: no-repeat;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 900px;
+    }
+
+    .primeiraSessaoFooter div {
+        border: solid green;
+        width: 40vw;
+        height: 25vh;
+        align-items: center;
+    }
+
+    .primeiraSessaoFooter a {
+        border: solid tomato;
+    }
 }
