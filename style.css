@@ -306,7 +306,6 @@ footer nav {
     }
 
     footer {
-        border: solid black;
         height: 160vh;
         display: flex;
         flex-direction: column;
