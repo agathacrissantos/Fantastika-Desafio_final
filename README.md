@@ -9,7 +9,7 @@
 # Tecnologias
 * HTML
 * CSS
-* Resposividade
+* Git e GitHub
 
 # Assuntos abordados na aprendizagem
 ## HTML
@@ -19,6 +19,7 @@
 ## CSS
 * Posicionamentos
 * Display-flex
+* Resposividade
 * @media
 
 ## Utilização do Adobe
