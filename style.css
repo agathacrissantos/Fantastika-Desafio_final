@@ -162,8 +162,16 @@ footer {
     color: #FFFFFF;
     height: 50vh;
     text-align: left;
-    padding-top: 60px;
+    padding-top: 30px;
     align-items: center;
+}
+
+.logoFooter {
+    display: none;
+}
+
+.iconesFooter {
+    display: none;
 }
 
 .primeiraSessaoFooter {
@@ -239,6 +247,7 @@ footer nav {
     .segundaSessaoMain div {
         width: 60vw;
         height: 35vh;
+        line-height: 25px;
     }
 
     .segundaSessaoMain h2 {
@@ -268,6 +277,7 @@ footer nav {
     .terceiraSessaoMain div {
         width: 60vw;
         height: 35vh;
+        line-height: 25px;
     }
 
     .terceiraSessaoMain h2 {
@@ -289,39 +299,76 @@ footer nav {
     }
 
     .quartaSessaoMain div {
-        margin-top: 50px;
-        height: 70vw;
+        height: 50vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     footer {
         border: solid black;
-        height: 1000px;
-        margin-top: 10px;
+        height: 160vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
+    footer section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 90vw;
+        height: 40vh;
+    }
+
+    .sessaoFooter .logoFooter {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 90vw;
+    }
+
+    .iconesFooter {
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+    }
+
+    .iconesFooter nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .iconesFooter nav a {
+        padding-left: 66px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
     .primeiraSessaoFooter {
-        border: solid red;
+        height: 100vh;
         background-color: #EB4A7B;
-        background-image: url(assets/patinha.png);
-        background-repeat: no-repeat;
         color: #FFFFFF;
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 900px;
     }
 
     .primeiraSessaoFooter div {
-        border: solid green;
-        width: 40vw;
-        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
         align-items: center;
+        width: 60vw;
+        height: 30vh;
     }
 
-    .primeiraSessaoFooter a {
-        border: solid tomato;
+    footer p {
+        font-size: 34px;
+    }
+
+    footer a {
+        font-size: 20px;
     }
 }
