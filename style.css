@@ -339,11 +339,15 @@ footer nav {
     }
 
     .iconesFooter nav a {
-        padding-left: 66px;
+        padding-left: 50px;
         display: flex;
         justify-content: space-around;
     }
 
+    .iconesFooter img {
+        width: 13vw;
+        height: 13vh;
+    }
     
     .primeiraSessaoFooter {
         height: 100vh;
